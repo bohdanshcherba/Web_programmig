@@ -1,0 +1,60 @@
+.second{
+    display: flex;
+    height: 677px;
+    background-image: url("../img/bg2.svg");
+    background-repeat: no-repeat;
+    background-position-x: 138px;
+    background-position-y: 210px;
+    }
+
+
+
+.post2{
+    width: 486px;
+    margin-top: 260px;
+    margin-left: 732px;
+
+}
+
+.second_h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    /* or 156% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+.second_p{
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+.line{
+    margin-top: 25px;
+}
+
+.bt_consult_today_2{
+    margin-top: 48px;
+    color: #458FF6;
+    background: white;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    width: 200px;
+    height: 56px;
+
+}
+

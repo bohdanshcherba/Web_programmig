@@ -1,0 +1,33 @@
+body {
+    background: #ffffff;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1100px;
+
+}
+
+
+.paragraph{
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+
+
+    color: #7D7987;
+
+}

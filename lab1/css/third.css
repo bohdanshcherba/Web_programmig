@@ -1,0 +1,42 @@
+.section_3{
+    background-image: url("../img/bg3.svg");
+    background-repeat: no-repeat;
+}
+
+.third{
+    display: flex;
+    margin-top: 212px;
+    height: 177px;
+}
+.third_h1{
+    margin-left: 300px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    /* identical to box height, or 156% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+.line_3{
+    margin-top: 26px;
+    margin-left: 525px
+}
+.third_p{
+    margin-top: 33px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}

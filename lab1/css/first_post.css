@@ -1,0 +1,59 @@
+.first{
+    background-image: url("../img/bg_1.svg");
+    background-repeat: no-repeat;
+    background-position-x: 747px;
+    background-position-y: 197px;
+    height: 795px;
+}
+
+
+
+.central_inner{
+    width: 427px;
+    padding-top: 191px;
+
+}
+
+.for_bg_1{
+    background-image: url("../img/dots.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 180px;
+    height: 795px;
+
+}
+
+.central_h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+.central_p{
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+.bt_consult_today{
+    margin-top: 48px;
+    color: white;
+    background: #458FF6;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    border: 0;
+}
