@@ -1,0 +1,65 @@
+.text_head{
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.view_all{
+    display: flex;
+    margin-left: 600px;
+}
+
+.arrow{
+    margin-top: 25px;
+    margin-left: 11px;
+    width: 4px;
+    height: 9px;
+}
+
+.view_all h6 a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    /* identical to box height, or 353% */
+
+
+    color: #FB8F1D;
+
+    mix-blend-mode: normal;
+}
+
+.third{
+    display: flex;
+    margin-top: 212px;
+    height: 177px;
+}
+.third_h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    /* identical to box height, or 156% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+
+.third_p{
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}

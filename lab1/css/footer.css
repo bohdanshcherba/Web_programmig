@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 195px;
+    background: #F8F8F8;
+
+}
+
+.footer div{
+    display: flex;
+}
+
+.footer div h6{
+    margin-top: 39px;
+
+    margin-left: 838px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    /* identical to box height, or 165% */
+
+
+    color: #848484;
+
+    mix-blend-mode: normal;
+}
+
+.footer div img{
+    margin-left: 191px;
+    margin-top: 31px;
+    width: 44px;
+    height: 44px;
+}
+
+.sec_footer {
+    padding-top: 140px;
+
+}
+.line{
+    position: absolute;
+    padding: 101px 0 0 191px;
+}
+

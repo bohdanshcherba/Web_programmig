@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #202336;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1100px;
+
+}
+
+
+.paragraph{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+
+
+    color: #7D7987;
+
+}
