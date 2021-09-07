@@ -1,6 +1,33 @@
-.section_3{
-    background-image: url("../img/bg3.svg");
-    background-repeat: no-repeat;
+.text_head{
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.view_all{
+    display: flex;
+    margin-left: 600px;
+}
+
+.arrow{
+    margin-top: 25px;
+    margin-left: 11px;
+    width: 4px;
+    height: 9px;
+}
+
+.view_all h6 a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    /* identical to box height, or 353% */
+
+
+    color: #FB8F1D;
+
+    mix-blend-mode: normal;
 }
 
 .third{
@@ -9,7 +36,6 @@
     height: 177px;
 }
 .third_h1{
-    margin-left: 300px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -22,12 +48,9 @@
     mix-blend-mode: normal;
 }
 
-.line_3{
-    margin-top: 26px;
-    margin-left: 525px
-}
+
 .third_p{
-    margin-top: 33px;
+
     font-style: normal;
     font-weight: 300;
     font-size: 18px;

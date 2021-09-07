@@ -1,6 +1,13 @@
 body {
-    background: #ffffff;
-    font-family: 'Mulish', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #202336;
 
 }
 
@@ -20,7 +27,7 @@ li{
 
 
 .paragraph{
-    font-family: Mulish, sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 21px;

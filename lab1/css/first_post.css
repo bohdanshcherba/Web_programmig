@@ -1,59 +1,86 @@
 .first{
     background-image: url("../img/bg_1.svg");
     background-repeat: no-repeat;
-    background-position-x: 747px;
-    background-position-y: 197px;
-    height: 795px;
-}
-
-
-
-.central_inner{
-    width: 427px;
-    padding-top: 191px;
-
-}
-
-.for_bg_1{
-    background-image: url("../img/dots.svg");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-position-y: 180px;
-    height: 795px;
-
+    background-position-x: 719px;
+    background-position-y: 175px;
+    height: 800px;
 }
 
 .central_h1{
+    margin-top: 114px;
+    width: 356px;
+    height: 160px;
+
+    font-family: Playfair Display;
+    font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-    /* or 117% */
+    font-size: 64px;
+    line-height: 80px;
+    /* or 125% */
 
 
-    color: #000000;
+    color: #202336;
 
     mix-blend-mode: normal;
 }
 
 .central_p{
-    margin-top: 25px;
-    font-weight: 300;
-    font-size: 21px;
+    margin-top: 74px;
+    position: absolute;
+    width: 149px;
+    height: 27px;
+
+    font-family: Inter ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #202336;
+}
+
+
+
+.line_1{
+    margin-top: 122px;
+}
+
+.selectors{
+    margin-top: 13px;
+}
+
+.selectors ul{
+    display: flex;
+}
+
+.select_li{
+    margin-right: 30px;
+    margin-top: 35px;
+
+}
+
+.select{
+    padding-left: 30px;
+
+    height: 52px;
+    width: 220px;
+    border: 0.8px solid #AFB0B9;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
     line-height: 32px;
-    /* or 152% */
+    /* or 213% */
 
-
-    color: #7D7987;
+    color: #4A4C53;
 
     mix-blend-mode: normal;
 }
 
-.bt_consult_today{
-    margin-top: 48px;
-    color: white;
-    background: #458FF6;
-    border-radius: 55px;
-    width: 200px;
-    height: 56px;
-    border: 0;
-}
+

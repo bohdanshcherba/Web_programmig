@@ -1,71 +1,73 @@
-.fourth{
+.posts{
+    width: 261px;
+    height: 332px;
+
+    background: #C4C4C4;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+
+.images{
     display: flex;
-    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.post_1{
+    background-image: url("../img/img_1.svg");
+    background-repeat: no-repeat;
 
 }
 
-.services{
-    display: flex;
-    height: 354px;
-}
-.services_1{
-    margin-top: 37px;
-    display: flex;
-    height: 354px;
+.post_2{
+    background-image: url("../img/img_2.svg");
+    background-repeat: no-repeat;
 
 }
-.service{
-    margin-left: 34px;
-    text-align: left ;
-    width: 350px;
-    height: 354px;
-    background: #ffffff;
-    /* drop shadow */
 
-    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-    border-radius: 20px;
-}
-
-.service_1_img{
-    margin-top: 54px;
-    margin-left: 37px;
+.post_3{
+    background-image: url("../img/img_3.svg");
+    background-repeat: no-repeat;
 
 }
-.inner_service{
 
-    margin-left: 39px;
+.post_4{
+    background-image: url("../img/img_4.svg");
+    background-repeat: no-repeat;
+
 }
-.service_h1{
-    margin-top: 22px;
+.sub_el{
+    margin-top: 276px;
+    width: 120px;
+    height: 56px;
 
+    background: #FFFFFF;
+    border-radius: 0px 6px 0px 0px;
+}
+
+.sub_el h6{
+    padding-top: 11px;
+    font-family: Inter;
     font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 56px;
-    /* identical to box height, or 233% */
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
 
 
-    color: #000000;
-
-    mix-blend-mode: normal;
-
-}
-
-
-.service_p{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 28px;
-    /* or 175% */
-
-
-    color: #7D7987;
+    color: #042521;
 
     mix-blend-mode: normal;
 }
 
-.learn_more_btn{
-    margin-left: 450px;
-    margin-top: 69px;
+.sub_el p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 147% */
+
+    color: #B8BECD;
+
+    mix-blend-mode: normal;
 }

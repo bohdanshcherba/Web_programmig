@@ -6,37 +6,84 @@
 }
 .logo {
     display: flex;
-    margin-top: 76px;
+    margin-top: 53px;
 }
 
-.text_logo{
-    margin-left: 12px;
-    margin-top: 6px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
 
-    color: #233348;
-
-    mix-blend-mode: normal;
-}
 
 .header_nav ul{
     display: flex;
+    margin-top: 64px;
+
+    margin-left: 415px;
+
+}
+
+.active{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #202336;
+
+}
+
+
+.not_active{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #B8BECD;
 }
 
 .header_li{
-    margin-top: 90px;
-    margin-right: 40px;
+    margin-right: 34px;
 }
 
-a.text1:visited{
-    color: #1F1534;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23px;
+.btns{
+    display: flex;
+    margin-top: 61px;
 }
 
+.login_btn{
+    width: 152px;
+    height: 44px;
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #FB8F1D;
+
+    background: #FFFFFF;
+}
+
+
+.reg_btn{
+    color: #FFFFFF;
+
+    margin-left: 18px;
+    width: 152px;
+    height: 44px;
+    border-radius: 8px;
+    border: 0;
+    background: #FB8F1D;
+}
+
+.social_ico{
+    position: absolute;
+
+}
+.social_ico ul{
+    display: flex;
+    margin-top: 134px;
+    margin-left: 600px;
+}
+
+.social_el{
+    margin-left: 35px;
+}
 
