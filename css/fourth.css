@@ -1,0 +1,114 @@
+.posts{
+    width: 261px;
+    height: 100%;
+
+    background: #C4C4C4;
+    border-radius: 8px;
+    margin-right:0;
+
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+
+}
+
+
+.post_1{
+    background-image: url("../img/img_1.svg");
+    background-repeat: no-repeat;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+
+}
+
+.post_1:hover{
+    transform: scale(1.05);
+
+}
+
+.post_2{
+    background-image: url("../img/img_2.svg");
+    background-repeat: no-repeat;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+
+}
+
+.post_2:hover{
+    transform: scale(1.05);
+
+}
+
+.post_3{
+    background-image: url("../img/img_3.svg");
+    background-repeat: no-repeat;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+
+}
+
+.post_3:hover{
+    transform: scale(1.05);
+
+}
+
+.post_4{
+    background-image: url("../img/img_4.svg");
+    background-repeat: no-repeat;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+
+}
+
+.post_4:hover{
+    transform: scale(1.05);
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 521px) {
+
+    .post_1:hover,.post_2:hover,.post_3:hover,.post_4:hover{
+        transform: scale(1.25);
+
+    }
+}
+
+.sub_el{
+    margin-top: 276px;
+    width: 120px;
+    height: 56px;
+
+    background: #FFFFFF;
+    border-radius: 0px 6px 0px 0px;
+}
+
+.sub_el h6{
+    padding-top: 11px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
+
+
+    color: #042521;
+
+    mix-blend-mode: normal;
+}
+
+.sub_el p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 147% */
+
+    color: #B8BECD;
+
+    mix-blend-mode: normal;
+}
