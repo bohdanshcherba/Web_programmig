@@ -1,0 +1,276 @@
+@media screen and (max-width: 520px){
+
+    body{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .header{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .logo{
+        padding: 0;
+        height: 35%;
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+    .header_nav{
+        display: none;
+    }
+    .btns{
+        display: none;
+
+    }
+
+    .first{
+        background-position-x: 50%;
+        background-position-y: 20%;
+        background-size: 85%;
+    }
+
+    .central_inner{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 90%;
+
+
+    }
+
+    .central_h1{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .central_p{
+        text-align: center;
+
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        font-size: 20px;
+
+
+    }
+
+    .line_1{
+        padding-top: 2%;
+
+    }
+
+    .selectors ul{
+        display: block;
+    }
+
+    .select_li{
+        max-width: 100%;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec_2{
+        margin-top: 50%;
+        height: 100%;
+
+    }
+
+
+
+    .second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-size: 85%;
+        background-position-x: 50%;
+        background-position-y: 20px;
+    }
+
+    .post2{
+        width: 100%;
+        margin-top: 70%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .second_h1{
+        width: 100%;
+
+        text-align: center;
+        font-size: 30px;
+
+    }
+    .second_p {
+        width: 90%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .bt_learn_more{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5%;
+    }
+
+
+
+    .third{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .text_head{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third_h1{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .view_all{
+        display: none;
+    }
+
+    .images{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .posts{
+        height: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 15%;
+        padding: 0;
+    }
+
+    .sub_el{
+        border-radius: 0px 6px 0px 6px;
+
+    }
+    .sub_el h6{
+        padding-top: 5px;
+    }
+
+
+    .line{
+        background-position-y: 40%;
+    }
+    .footer{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .footer div{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer div img{
+        margin:0;
+        padding-left: 0;
+        padding-top: 5%;
+        width: 40px;
+    }
+
+    .social_ico{
+        margin:0;
+        padding: 0;
+        width: 100%;
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer div h6{
+        margin:0;
+        padding: 0;
+        font-size: 12px;
+
+
+        text-align: center;
+
+    }
+
+    .social_ico ul{
+        margin:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10%;
+        padding-left: 0;
+        width: 100%;
+
+        padding-right: 0;
+    }
+
+    .social_el{
+        margin:0;
+        padding: 0;
+        display: flex;
+        width: 100%;
+
+        justify-content: space-around;
+    }
+
+    .social_el img{
+        margin:0;
+        padding: 0;
+        width: 100%;
+        height: 12px;
+
+
+    }
+
+}

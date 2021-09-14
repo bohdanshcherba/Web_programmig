@@ -1,2 +1,4 @@
 # Web_programmig
-Labs
+Lab 2
+
+- make adapting styles for lending page
