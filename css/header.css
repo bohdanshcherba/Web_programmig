@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    background-color: #24292f;
+    height: 50px;
+}
+
+.header__btns {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.count {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.count__p {
+    color: white;
+    padding-right: 5px;
+}
+
+.num{
+    color: white;
+    padding-right: 5px;
+
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    background-color: #24292f;
+    border: solid 1px;
+
+}
+
+.btn{
+    color: white;
+}
+
+button:active {
+    transform: translateY(4px);
+}
