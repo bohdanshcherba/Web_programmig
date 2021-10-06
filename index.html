@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+
+<header class="header">
+    <div>
+        <input type="text" id="find_input">
+        <button class="btn" id="find_btn">Search</button>
+        <button class="btn_add" id="add_btn">Add new item</button>
+    </div>
+    <div class="header__btns">
+        <div class="sort">
+            <button class="btn" id="sort_btn">Sort</button>
+        </div>
+        <div class="count">
+            <p class="count__p">Total price:</p>
+            <p class="num" id="count_price">0</p>
+            <button class="btn" id="count_btn">Count</button>
+        </div>
+    </div>
+</header>
+<section>
+    <p id="not_found" class="not-found"></p>
+    <ul id="items_container" class="">
+    </ul>
+</section>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-inputs">
+            <h1 id="text-model" class="new-item">Create new item</h1>
+            <img
+                    src="https://elements-video-cover-images-0.imgix.net/files/85e0d3d8-4e42-404b-849b-3580e12ede73/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=1fbaad74d51834633859fddc56e96010"
+                    class="modal-img" alt="card">
+
+            <div class="modal-name">
+                <p class="modal_p">Name:</p>
+                <input id="input_name" type="text">
+            </div>
+            <div>
+                <p class="modal_p">Price</p>
+                <input id="input_price" type="number">
+            </div>
+            <div>
+                <p class="modal_p">Volume in Ml:</p>
+                <input id="input_volumeInMl" type="number">
+            </div>
+            <div>
+
+                <button id="add_item_btn" class="add_item">
+                    Add item
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script type="module" src="js/app.js"></script>
+<script type="module" src="js/modalWindow.js"></script>
+
+</body>
+</html>

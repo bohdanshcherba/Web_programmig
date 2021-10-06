@@ -1,0 +1,34 @@
+.item{
+    background-color: #eec5c5;
+    height: 300px;
+    width: 500px;
+    margin-top: 5%;
+    margin-left: 40%;
+    display: flex;
+
+}
+
+.info{
+    margin-top: 50px;
+}
+
+.card{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.card-img{
+    height: 100px;
+}
+
+.not-found{
+    margin-top: 0;
+    margin-left: 45%;
+}
+
+.btn-edit{
+    margin-top: 5px;
+    background-color: white!important;
+    width: 90px;
+
+}
