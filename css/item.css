@@ -25,3 +25,10 @@
     margin-top: 0;
     margin-left: 45%;
 }
+
+.btn-edit{
+    margin-top: 5px;
+    background-color: white!important;
+    width: 90px;
+
+}

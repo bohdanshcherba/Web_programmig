@@ -46,3 +46,13 @@ button {
 button:active {
     transform: translateY(4px);
 }
+
+.btn_add{
+    margin-left: 20px;
+    width: 150px;
+    height: 25px;
+    background-color: #24292f;
+    border: solid 1px;
+    color: white;
+
+}
