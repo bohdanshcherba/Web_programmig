@@ -1,4 +1,4 @@
-.items{
+.items {
     margin-top: 60px;
     margin-bottom: 60px;
     display: grid;
@@ -10,7 +10,7 @@
 
 }
 
-.not_found{
+.not_found {
     height: 600px;
     width: 100%;
     display: flex;
@@ -21,19 +21,19 @@
 
 }
 
-.not_found p{
+.not_found p {
     padding-top: 200px;
 }
 
-@media screen and (max-width: 1000px){
-    .items{
+@media screen and (max-width: 1000px) {
+    .items {
         grid-template-columns: repeat(2, 1fr);
 
     }
 }
 
-@media screen and (max-width: 720px){
-    .items{
+@media screen and (max-width: 720px) {
+    .items {
         grid-template-columns: repeat(1, 1fr);
 
     }

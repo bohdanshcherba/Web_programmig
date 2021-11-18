@@ -82,7 +82,7 @@ function App() {
     const [kindSort, setKindSort] = useState("price")
     const [typeSort, setTypeSort] = useState("desc")
     const [countItems, setCountItems] = useState(3)
-    const [isLoad,setLoad] = useState(false)
+    const [isLoad, setLoad] = useState(false)
 
 
     // const Search = () => {
@@ -150,14 +150,12 @@ function App() {
 
     useEffect(() => {
         setLoad(true)
-        sharesApi.getAll().then(({ data }) => {
+        sharesApi.getAll().then(({data}) => {
             console.log(data);
             setData(data)
             setLoad(false)
         });
     }, []);
-
-
 
 
     return (
@@ -168,13 +166,14 @@ function App() {
                 {redirect ? (<Redirect push to="/catalog"/>) : null}
 
 
-                    <Route exact path="/"
-                           render={() => <Home isLoad={isLoad} coffees={data} countItems={countItems} setCountItems={setCountItems}/>}/>
-                    <Route path="/catalog"
-                    render={() => <Catalog isLoad={isLoad} coffees={foundItems} Sort={Sort} setKindSort={setKindSort}
-                    setTypeSort={setTypeSort}/>}/>
+                <Route exact path="/"
+                       render={() => <Home isLoad={isLoad} coffees={data} countItems={countItems}
+                                           setCountItems={setCountItems}/>}/>
+                <Route path="/catalog"
+                       render={() => <Catalog isLoad={isLoad} coffees={foundItems} Sort={Sort} setKindSort={setKindSort}
+                                              setTypeSort={setTypeSort}/>}/>
 
-                    <Route path="/coffee/:id" render={() => <ItemPage items={data}/>}/>
+                <Route path="/coffee/:id" render={() => <ItemPage items={data}/>}/>
 
 
                 <Footer/>

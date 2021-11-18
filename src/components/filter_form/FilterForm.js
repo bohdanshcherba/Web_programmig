@@ -30,7 +30,7 @@ const FilterForm = (props) => {
                 <div className={s.form_select}>
 
                     <div>
-                        <label>Sort by: </label>
+                        <label>Sort by:</label>
                         <select className={s.select1} onChange={handleChangeKind}>
                             <option value='price'>price</option>
                             <option value='volume'>volume</option>

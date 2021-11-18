@@ -1,8 +1,8 @@
-.filter_form{
+.filter_form {
     border-bottom: .5px solid #e5dcb9;
 }
 
-.form{
+.form {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
@@ -10,14 +10,14 @@
     justify-content: space-around;
 }
 
-.select1{
+.select1 {
     width: 150px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #e2970f;
 }
 
-.submit{
+.submit {
     outline: 0;
     width: 250%;
     height: 30px;
@@ -28,14 +28,14 @@
     transition-duration: 0.5s;
 }
 
-.submit:hover{
+.submit:hover {
     border: 1px solid #e2970f;
 
     background-color: #ffffff;
     color: #e2970f;
 }
 
-.form_select{
+.form_select {
     width: 25%;
     display: flex;
     justify-content: space-around;

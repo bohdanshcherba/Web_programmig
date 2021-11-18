@@ -23,7 +23,10 @@ const Home = (props) => {
             <div className={s.hero}>
                 <div className={s.container}>
                     <div className={s.contacts}>
-                        <span><a href="">Зареєструйтесь</a> та знижка від 3% ваша</span>
+                        <span>
+                            <a href="">Зареєструйтесь</a>
+                            та знижка від 3% ваша
+                        </span>
                     </div>
                     <div className={s.home_text}>
                         <p className={s.p}>
@@ -35,25 +38,26 @@ const Home = (props) => {
             </div>
             <div>
                 {props.isLoad ? <div className={loader.screen}>
-                    <div className={loader.loader}>Loading...</div></div>:
+                        <div className={loader.loader}>Loading...</div>
+                    </div> :
 
-                (<div className={s.container}>
+                    (<div className={s.container}>
 
-                    <div className={s.items}>
-                        {
-                            coffees.slice(0, props.countItems).map(((item) => (
-                                <CoffeeItem key={item.id} image={item.img} name={item.name} price={item.price}
-                                            volumeInMl={item.volumeInMl}/>)))
-                        }
-                    </div>
-                    <div className={s.show_more}>
-                        {props.countItems < coffees.length ?
-                            <button className={s.btn_more} onClick={handleClickShow}>Show more</button> :
-                            <button className={s.btn_more} onClick={handleClickHide}>Hide</button>
-                        }
-                    </div>
+                        <div className={s.items}>
+                            {
+                                coffees.slice(0, props.countItems).map(((item) => (
+                                    <CoffeeItem key={item.id} image={item.img} name={item.name} price={item.price}
+                                                volumeInMl={item.volumeInMl}/>)))
+                            }
+                        </div>
+                        <div className={s.show_more}>
+                            {props.countItems < coffees.length ?
+                                <button className={s.btn_more} onClick={handleClickShow}>Show more</button> :
+                                <button className={s.btn_more} onClick={handleClickHide}>Hide</button>
+                            }
+                        </div>
 
-                </div>)}
+                    </div>)}
 
             </div>
         </div>

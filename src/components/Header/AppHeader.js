@@ -36,12 +36,14 @@ const AppHeader = (props) => {
                 <NavLink to='/user' className={s.navLink}>
                     <div className={s.nav_item}>
                         <img className={s.profile_img} src={user}/>
-                        <h5>Profile</h5></div>
+                        <h5>Profile</h5>
+                    </div>
                 </NavLink>
                 <NavLink to='/basket' className={s.navLink}>
                     <div className={s.nav_item}>
                         <img className={s.basket_img} src={basket}/>
-                        <h5>Basket</h5></div>
+                        <h5>Basket</h5>
+                    </div>
                 </NavLink>
                 <NavLink to='/catalog' className={s.navLink}>
                     <div className={s.nav_item}>

@@ -6,12 +6,12 @@
     justify-content: space-around;
 }
 
-.logo{
+.logo {
     width: 100%;
     height: 3rem;
 }
 
-.input_search{
+.input_search {
     background-color: rgba(255, 255, 255, 0.16);
     color: #fff;
     border: 0;
@@ -21,7 +21,7 @@
     width: 40rem;
 }
 
-.btn_search{
+.btn_search {
     left: 0;
     top: 0;
     width: 5rem;
@@ -33,24 +33,25 @@
 
 }
 
-.btn_search:hover{
+.btn_search:hover {
     background-color: rgba(150, 148, 42, 0.5);
 
 }
 
-.user_nav{
+.user_nav {
     display: flex;
 
     width: 300px;
     justify-content: space-around;
 }
-.profile_img, .basket_img, .coffee_img{
+
+.profile_img, .basket_img, .coffee_img {
     height: 38px;
 
 }
 
 
-.nav_item{
+.nav_item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,8 +59,7 @@
 }
 
 
-
-h5{
+h5 {
     padding: 0;
     margin: 0;
     top: 0;
@@ -67,10 +67,10 @@ h5{
     text-decoration: none;
 }
 
-.navLink{
+.navLink {
     text-decoration: none;
 }
 
-h5:hover{
+h5:hover {
     color: #cbc538;
 }

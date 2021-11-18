@@ -1,4 +1,4 @@
-.footer{
+.footer {
     width: 100%;
     height: 150px;
     background-color: #f3f3f3;
@@ -9,12 +9,12 @@
     flex-direction: column;
 }
 
-.logo{
+.logo {
     padding-top: 10px;
     width: 200px;
 }
 
-.footer_social{
+.footer_social {
     width: 30%;
     display: flex;
     justify-content: space-around;
@@ -23,6 +23,6 @@
 
 }
 
-.item{
+.item {
     width: 15px;
 }

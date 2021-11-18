@@ -1,13 +1,12 @@
-import React,{useState} from 'react';
+import React, {useState} from 'react';
 import {useParams, useHistory, NavLink} from 'react-router-dom';
 import s from "./itemPage.module.css";
 
-const ItemPage = (props)=> {
-    const { id } = useParams();
+const ItemPage = (props) => {
+    const {id} = useParams();
 
 
-
-    const [coffee,setItem] = useState(props.items.find(item => item.id == id));
+    const [coffee, setItem] = useState(props.items.find(item => item.id == id));
 
     console.log(coffee)
     return (
