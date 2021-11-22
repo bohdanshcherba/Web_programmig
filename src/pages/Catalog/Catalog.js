@@ -7,7 +7,7 @@ import loader from "../../components/loader.module.css";
 const Catalog = (props) => {
 
         let coffees = props.coffees
-        console.log(coffees)
+        console.log("FROMA CATALOG PAGE", coffees)
         return (
             <div>
                 <FilterForm {...props}/>
@@ -24,7 +24,7 @@ const Catalog = (props) => {
                                     coffees.map(((item) => (
                                         <CoffeeItem key={item.id} id={item.id} image={item.img} name={item.name}
                                                     price={item.price}
-                                                    volumeInMl={item.volumeInMl}/>)))
+                                                    volumeInMl={item.volumeInMl} inBasket={item.inBasket}/>)))
                                 }
                             </div>
                         }

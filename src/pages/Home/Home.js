@@ -46,7 +46,7 @@ const Home = (props) => {
                         <div className={s.items}>
                             {
                                 coffees.slice(0, props.countItems).map(((item) => (
-                                    <CoffeeItem key={item.id} image={item.img} name={item.name} price={item.price}
+                                    <CoffeeItem key={item.id} id={item.id} image={item.img} name={item.name} price={item.price}
                                                 volumeInMl={item.volumeInMl}/>)))
                             }
                         </div>

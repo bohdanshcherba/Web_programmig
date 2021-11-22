@@ -1,23 +1,27 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import s from './AppHeader.module.css'
 import {NavLink} from "react-router-dom";
 import user from '../../img/user.img'
 import basket from '../../img/basket.png'
 import coffee_ico from '../../img/coffee-7-64.png'
+import {useDispatch} from "react-redux";
+import itemActions from "../../redux/actions/items";
 
 
 const AppHeader = (props) => {
+    const dispatch = useDispatch()
 
+    const [searchItem, setSearchItem] = useState('')
 
     const handleChange = event => {
         props.setRedirect(false)
-        props.setSearchItem(event.target.value)
+        setSearchItem(event.target.value)
     }
 
     const handleSubmit = event => {
         props.setRedirect(true)
-        props.Search()
-        props.setSearchItem("")
+        dispatch(itemActions.searchItems(searchItem))
+        setSearchItem('')
         event.preventDefault()
     }
 
@@ -28,7 +32,7 @@ const AppHeader = (props) => {
             </NavLink>
             <div>
                 <form onSubmit={handleSubmit}>
-                    <input className={s.input_search} type="text" value={props.searchItem} onChange={handleChange}/>
+                    <input className={s.input_search} type="text" value={searchItem} onChange={handleChange}/>
                     <input className={s.btn_search} type='submit' value="Search"/>
                 </form>
             </div>
